@@ -1,0 +1,384 @@
+{
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.60\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Beneficiários maior Custo",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "06ea74c887358beea00b",
+      "ordinal": 4,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"05f4636f4b1e8e67a331\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.753694581280788,\"y\":15.960591133004927,\"z\":0,\"width\":257.14285714285717,\"height\":356.45320197044333,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.CHAVE\"},{\"queryRef\":\"Sum(f_custos.CUSTO)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"f_custos\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CHAVE\"},\"Name\":\"d_beneficiarios.CHAVE\",\"NativeReferenceName\":\"CHAVE\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"CUSTO\"}},\"Function\":0},\"Name\":\"Sum(f_custos.CUSTO)\",\"NativeReferenceName\":\"Soma de CUSTO\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"CUSTO\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 356.45,
+          "width": 257.14,
+          "x": 9.75,
+          "y": 15.96,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"27133998015a4bc6e273\",\"layouts\":[{\"id\":0,\"position\":{\"x\":274.8768472906405,\"y\":21.280788177339893,\"z\":1000,\"width\":219.9014778325123,\"height\":88.66995073891626,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.STATUS_BENEFICIARIO\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"STATUS_BENEFICIARIO\"},\"Name\":\"d_beneficiarios.STATUS_BENEFICIARIO\",\"NativeReferenceName\":\"STATUS_BENEFICIARIO\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 88.67,
+          "width": 219.90,
+          "x": 274.88,
+          "y": 21.28,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"cf41ecf25ca9427800da\",\"layouts\":[{\"id\":0,\"position\":{\"x\":274.8768472906405,\"y\":111.72413793103445,\"z\":2000,\"width\":219.9014778325123,\"height\":100.19704433497537,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.TIPO_BENEFICIARIO\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"TIPO_BENEFICIARIO\"},\"Name\":\"d_beneficiarios.TIPO_BENEFICIARIO\",\"NativeReferenceName\":\"TIPO_BENEFICIARIO\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 100.20,
+          "width": 219.90,
+          "x": 274.88,
+          "y": 111.72,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Resultados",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "08e446e2e659002bc0cd",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"14f569bfe791b53bd8ed\",\"layouts\":[{\"id\":0,\"position\":{\"x\":223.44827586206895,\"y\":146.30541871921181,\"z\":0,\"width\":832.6108374384237,\"height\":426.5024630541872,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"d_calendario.COMPETENCIA\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(f_custos.CUSTO)\"}],\"Tooltips\":[{\"queryRef\":\"Sum(f_receitas.RECEITA)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_calendario\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"f_custos\",\"Type\":0},{\"Name\":\"f1\",\"Entity\":\"f_receitas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"COMPETENCIA\"},\"Name\":\"d_calendario.COMPETENCIA\",\"NativeReferenceName\":\"COMPETENCIA\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"CUSTO\"}},\"Function\":0},\"Name\":\"Sum(f_custos.CUSTO)\",\"NativeReferenceName\":\"Soma de CUSTO\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f1\"}},\"Property\":\"RECEITA\"}},\"Function\":0},\"Name\":\"Sum(f_receitas.RECEITA)\",\"NativeReferenceName\":\"Soma de RECEITA\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"COMPETENCIA\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"axisType\":{\"expr\":{\"Literal\":{\"Value\":\"'Categorical'\"}}}}}]},\"vcObjects\":{\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 426.50,
+          "width": 832.61,
+          "x": 223.45,
+          "y": 146.31,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Custos",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "2fc44f35c681032949a5",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"30f726f2cb1dcd3b4267\",\"layouts\":[{\"id\":0,\"position\":{\"x\":38.12807881773399,\"y\":301.4778325123153,\"z\":2000,\"width\":184.43349753694582,\"height\":99.3103448275862,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.TIPO_BENEFICIARIO\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"TIPO_BENEFICIARIO\"},\"Name\":\"d_beneficiarios.TIPO_BENEFICIARIO\",\"NativeReferenceName\":\"TIPO_BENEFICIARIO\"}]},\"syncGroup\":{\"groupName\":\"TIPO_BENEFICIARIO\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 99.31,
+          "width": 184.43,
+          "x": 38.13,
+          "y": 301.48,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"9b6e0c239850b1ad3ae1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":276.6502463054187,\"y\":109.06403940886699,\"z\":0,\"width\":876.9458128078818,\"height\":384.82758620689657,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"f_custos.COMPETENCIA\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(f_custos.CUSTO)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"f_custos\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"COMPETENCIA\"},\"Name\":\"f_custos.COMPETENCIA\",\"NativeReferenceName\":\"COMPETENCIA\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"CUSTO\"}},\"Function\":0},\"Name\":\"Sum(f_custos.CUSTO)\",\"NativeReferenceName\":\"Soma de CUSTO\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"COMPETENCIA\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"axisType\":{\"expr\":{\"Literal\":{\"Value\":\"'Categorical'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 384.83,
+          "width": 876.95,
+          "x": 276.65,
+          "y": 109.06,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"c9af22ab55e80160e085\",\"layouts\":[{\"id\":0,\"position\":{\"x\":38.12807881773399,\"y\":147.192118226601,\"z\":1000,\"width\":216.35467980295567,\"height\":103.74384236453201,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.STATUS_BENEFICIARIO\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"STATUS_BENEFICIARIO\"},\"Name\":\"d_beneficiarios.STATUS_BENEFICIARIO\",\"NativeReferenceName\":\"STATUS_BENEFICIARIO\"}]},\"syncGroup\":{\"groupName\":\"STATUS_BENEFICIARIO\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 103.74,
+          "width": 216.35,
+          "x": 38.13,
+          "y": 147.19,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Beneficiários maior Custo p/ período",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "5f63fdb0025dc32355be",
+      "ordinal": 7,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"448f0956801a85d09667\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.753694581280788,\"y\":15.960591133004927,\"z\":0,\"width\":269.5566502463054,\"height\":360.88669950738915,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.CHAVE\"},{\"queryRef\":\"Sum(f_receitas.RECEITA)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0},{\"Name\":\"f1\",\"Entity\":\"f_receitas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CHAVE\"},\"Name\":\"d_beneficiarios.CHAVE\",\"NativeReferenceName\":\"CHAVE\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f1\"}},\"Property\":\"RECEITA\"}},\"Function\":0},\"Name\":\"Sum(f_receitas.RECEITA)\",\"NativeReferenceName\":\"Soma de RECEITA\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f1\"}},\"Property\":\"RECEITA\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 360.89,
+          "width": 269.56,
+          "x": 9.75,
+          "y": 15.96,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"4f35058a8bde8a442300\",\"layouts\":[{\"id\":0,\"position\":{\"x\":530.2463054187192,\"y\":17.733990147783253,\"z\":1000,\"width\":219.9014778325123,\"height\":88.66995073891626,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.STATUS_BENEFICIARIO\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"STATUS_BENEFICIARIO\"},\"Name\":\"d_beneficiarios.STATUS_BENEFICIARIO\",\"NativeReferenceName\":\"STATUS_BENEFICIARIO\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 88.67,
+          "width": 219.90,
+          "x": 530.25,
+          "y": 17.73,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"8ee070b4508a4c93810d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":279.3103448275862,\"y\":15.960591133004927,\"z\":3000,\"width\":160.49261083743843,\"height\":381.2807881773399,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"d_calendario.COMPETENCIA\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_calendario\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"COMPETENCIA\"},\"Name\":\"d_calendario.COMPETENCIA\",\"NativeReferenceName\":\"COMPETENCIA\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"slider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 381.28,
+          "width": 160.49,
+          "x": 279.31,
+          "y": 15.96,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"ff0e9eb10843e7b9c5e2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":530.2463054187192,\"y\":114.38423645320196,\"z\":2000,\"width\":219.9014778325123,\"height\":100.19704433497537,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.TIPO_BENEFICIARIO\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"TIPO_BENEFICIARIO\"},\"Name\":\"d_beneficiarios.TIPO_BENEFICIARIO\",\"NativeReferenceName\":\"TIPO_BENEFICIARIO\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 100.20,
+          "width": 219.90,
+          "x": 530.25,
+          "y": 114.38,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Beneficiário mais tempo",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "63c10d9f83042b57946b",
+      "ordinal": 8,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"8a60163cb290c7b057dd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":340.4926108374384,\"y\":15.960591133004927,\"z\":1000,\"width\":205.71428571428572,\"height\":99.3103448275862,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.STATUS_BENEFICIARIO\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"STATUS_BENEFICIARIO\"},\"Name\":\"d_beneficiarios.STATUS_BENEFICIARIO\",\"NativeReferenceName\":\"STATUS_BENEFICIARIO\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 99.31,
+          "width": 205.71,
+          "x": 340.49,
+          "y": 15.96,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"dcee5ba686ecb5e26234\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":15.960591133004927,\"z\":0,\"width\":324.5320197044335,\"height\":263.3497536945813,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.CHAVE\"},{\"queryRef\":\"Sum(d_beneficiarios.Periodo_do_plano)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CHAVE\"},\"Name\":\"d_beneficiarios.CHAVE\",\"NativeReferenceName\":\"CHAVE\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Periodo_do_plano\"}},\"Function\":0},\"Name\":\"Sum(d_beneficiarios.Periodo_do_plano)\",\"NativeReferenceName\":\"Soma de Periodo_do_plano\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Periodo_do_plano\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 263.35,
+          "width": 324.53,
+          "x": 0.00,
+          "y": 15.96,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Beneficiários",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "856cbed700e7cee540d5",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"2e4d3b700b3b870dd417\",\"layouts\":[{\"id\":0,\"position\":{\"x\":31.03448275862069,\"y\":179.11330049261085,\"z\":0,\"width\":206.60098522167488,\"height\":127.68472906403942,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.TIPO_BENEFICIARIO\"},{\"queryRef\":\"d_beneficiarios.CHAVE\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"TIPO_BENEFICIARIO\"},\"Name\":\"d_beneficiarios.TIPO_BENEFICIARIO\",\"NativeReferenceName\":\"Tipo\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CHAVE\"}},\"Function\":5},\"Name\":\"d_beneficiarios.CHAVE\",\"NativeReferenceName\":\"Qtd\"}]},\"columnProperties\":{\"d_beneficiarios.TIPO_BENEFICIARIO\":{\"displayName\":\"Tipo\"},\"d_beneficiarios.CHAVE\":{\"displayName\":\"Qtd\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"values\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}}}}]},\"vcObjects\":{\"stylePreset\":[{\"properties\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Default'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 127.68,
+          "width": 206.60,
+          "x": 31.03,
+          "y": 179.11,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"8794e2d4c7e840c6a700\",\"layouts\":[{\"id\":0,\"position\":{\"x\":344.0394088669951,\"y\":85.1231527093596,\"z\":2000,\"width\":757.2413793103449,\"height\":548.8669950738916,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"Category\":[{\"queryRef\":\"d_beneficiarios.Localização\",\"active\":true}],\"Size\":[{\"queryRef\":\"CountNonNull(d_beneficiarios.CHAVE)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CHAVE\"}},\"Function\":5},\"Name\":\"CountNonNull(d_beneficiarios.CHAVE)\",\"NativeReferenceName\":\"CHAVE\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Localização\"},\"Name\":\"d_beneficiarios.Localização\",\"NativeReferenceName\":\"Localização\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 548.87,
+          "width": 757.24,
+          "x": 344.04,
+          "y": 85.12,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"f80b0b392002b88e5eb0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":31.03448275862069,\"y\":85.1231527093596,\"z\":1000,\"width\":206.60098522167488,\"height\":93.99014778325123,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.STATUS_BENEFICIARIO\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"STATUS_BENEFICIARIO\"},\"Name\":\"d_beneficiarios.STATUS_BENEFICIARIO\",\"NativeReferenceName\":\"STATUS_BENEFICIARIO\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 93.99,
+          "width": 206.60,
+          "x": 31.03,
+          "y": 85.12,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "UF´s maiores custos",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "8cae75f10050da904427",
+      "ordinal": 6,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"001f14a0343937b13408\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":23.054187192118228,\"z\":0,\"width\":242.0689655172414,\"height\":240.29556650246306,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.UF_RESIDENCIAL\"},{\"queryRef\":\"Sum(f_custos.CUSTO)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"f_custos\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"UF_RESIDENCIAL\"},\"Name\":\"d_beneficiarios.UF_RESIDENCIAL\",\"NativeReferenceName\":\"UF_RESIDENCIAL\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"CUSTO\"}},\"Function\":0},\"Name\":\"Sum(f_custos.CUSTO)\",\"NativeReferenceName\":\"Soma de CUSTO\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"CUSTO\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 240.30,
+          "width": 242.07,
+          "x": 0.00,
+          "y": 23.05,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"f4bd837c7207d8bbdb34\",\"layouts\":[{\"id\":0,\"position\":{\"x\":242.0689655172414,\"y\":23.054187192118228,\"z\":1000,\"width\":211.0344827586207,\"height\":98.42364532019704,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.STATUS_BENEFICIARIO\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"STATUS_BENEFICIARIO\"},\"Name\":\"d_beneficiarios.STATUS_BENEFICIARIO\",\"NativeReferenceName\":\"STATUS_BENEFICIARIO\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 98.42,
+          "width": 211.03,
+          "x": 242.07,
+          "y": 23.05,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "% receita p/ tipo de beneficiário",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "dcd8e9153ccea2b680eb",
+      "ordinal": 9,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"032ba4314d8821192953\",\"layouts\":[{\"id\":0,\"position\":{\"x\":449.5566502463054,\"y\":25.714285714285715,\"z\":1000,\"width\":207.48768472906403,\"height\":102.85714285714286,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.STATUS_BENEFICIARIO\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"STATUS_BENEFICIARIO\"},\"Name\":\"d_beneficiarios.STATUS_BENEFICIARIO\",\"NativeReferenceName\":\"STATUS_BENEFICIARIO\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 102.86,
+          "width": 207.49,
+          "x": 449.56,
+          "y": 25.71,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"2564f16722199a12c25a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.413793103448276,\"y\":13.300492610837438,\"z\":0,\"width\":383.0541871921182,\"height\":229.6551724137931,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"d_beneficiarios.TIPO_BENEFICIARIO\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(f_receitas.RECEITA)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"f_receitas\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"TIPO_BENEFICIARIO\"},\"Name\":\"d_beneficiarios.TIPO_BENEFICIARIO\",\"NativeReferenceName\":\"TIPO_BENEFICIARIO\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"RECEITA\"}},\"Function\":0},\"Name\":\"Sum(f_receitas.RECEITA)\",\"NativeReferenceName\":\"Soma de RECEITA\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"RECEITA\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 229.66,
+          "width": 383.05,
+          "x": 12.41,
+          "y": 13.30,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"852834d9843ca6a021eb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":31.921182266009854,\"y\":313.0049261083744,\"z\":2000,\"width\":428.2758620689655,\"height\":125.02463054187193,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.TIPO_BENEFICIARIO\"},{\"queryRef\":\"Sum(f_receitas.RECEITA)1\"},{\"queryRef\":\"Sum(f_receitas.RECEITA)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"f_receitas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"TIPO_BENEFICIARIO\"},\"Name\":\"d_beneficiarios.TIPO_BENEFICIARIO\",\"NativeReferenceName\":\"TIPO_BENEFICIARIO\"},{\"Arithmetic\":{\"Left\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"RECEITA\"}},\"Function\":6}},\"Right\":{\"ScopedEval\":{\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"RECEITA\"}},\"Function\":6}},\"Scope\":[]}},\"Operator\":3},\"Name\":\"Sum(f_receitas.RECEITA)\",\"NativeReferenceName\":\"%GT Mediana de RECEITA\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"RECEITA\"}},\"Function\":0},\"Name\":\"Sum(f_receitas.RECEITA)1\",\"NativeReferenceName\":\"Soma de RECEITA\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 125.02,
+          "width": 428.28,
+          "x": 31.92,
+          "y": 313.00,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Dependencia",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ebd768d7b5d3a0e50367",
+      "ordinal": 5,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"64c2f6e22e71cb50c783\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":16.84729064039409,\"z\":0,\"width\":350.2463054187192,\"height\":343.1527093596059,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.GRAU_DEPENDENCIA\"},{\"queryRef\":\"Sum(f_receitas.RECEITA)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"f_receitas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"GRAU_DEPENDENCIA\"},\"Name\":\"d_beneficiarios.GRAU_DEPENDENCIA\",\"NativeReferenceName\":\"GRAU_DEPENDENCIA\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"RECEITA\"}},\"Function\":0},\"Name\":\"Sum(f_receitas.RECEITA)\",\"NativeReferenceName\":\"Soma de RECEITA\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"115.77339881833609D\"}}}},\"selector\":{\"metadata\":\"Sum(f_receitas.RECEITA)\"}}]}}}",
+          "filters": "[]",
+          "height": 343.15,
+          "width": 350.25,
+          "x": 0.00,
+          "y": 16.85,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"ff9391b53e089e69b0ac\",\"layouts\":[{\"id\":0,\"position\":{\"x\":350.2463054187192,\"y\":16.84729064039409,\"z\":1000,\"width\":222.5615763546798,\"height\":101.9704433497537,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.STATUS_BENEFICIARIO\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"STATUS_BENEFICIARIO\"},\"Name\":\"d_beneficiarios.STATUS_BENEFICIARIO\",\"NativeReferenceName\":\"STATUS_BENEFICIARIO\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 101.97,
+          "width": 222.56,
+          "x": 350.25,
+          "y": 16.85,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Receitas",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "fbadd4e0b78681b714ed",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"23fdea002580085d4b48\",\"layouts\":[{\"id\":0,\"position\":{\"x\":373.30049261083747,\"y\":93.10344827586206,\"z\":0,\"width\":589.6551724137931,\"height\":287.29064039408865,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"f_receitas.COMPETENCIA\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(f_receitas.RECEITA)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"f_receitas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"COMPETENCIA\"},\"Name\":\"f_receitas.COMPETENCIA\",\"NativeReferenceName\":\"COMPETENCIA\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"RECEITA\"}},\"Function\":0},\"Name\":\"Sum(f_receitas.RECEITA)\",\"NativeReferenceName\":\"Soma de RECEITA\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"COMPETENCIA\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"axisType\":{\"expr\":{\"Literal\":{\"Value\":\"'Categorical'\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 287.29,
+          "width": 589.66,
+          "x": 373.30,
+          "y": 93.10,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"5f5f077d73ea519d6d9d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":477.04433497536945,\"y\":429.1625615763547,\"z\":3000,\"width\":409.6551724137931,\"height\":198.6206896551724,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(f_receitas.RECEITA)\"}],\"Category\":[{\"queryRef\":\"d_beneficiarios.TIPO_BENEFICIARIO\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"f_receitas\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"RECEITA\"}},\"Function\":0},\"Name\":\"Sum(f_receitas.RECEITA)\",\"NativeReferenceName\":\"Soma de RECEITA\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"TIPO_BENEFICIARIO\"},\"Name\":\"d_beneficiarios.TIPO_BENEFICIARIO\",\"NativeReferenceName\":\"TIPO_BENEFICIARIO\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"RECEITA\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 198.62,
+          "width": 409.66,
+          "x": 477.04,
+          "y": 429.16,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"b107e2961e824813d7cc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":38.12807881773399,\"y\":147.192118226601,\"z\":1000,\"width\":216.35467980295567,\"height\":103.74384236453201,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.STATUS_BENEFICIARIO\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"STATUS_BENEFICIARIO\"},\"Name\":\"d_beneficiarios.STATUS_BENEFICIARIO\",\"NativeReferenceName\":\"STATUS_BENEFICIARIO\"}]},\"syncGroup\":{\"groupName\":\"STATUS_BENEFICIARIO\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 103.74,
+          "width": 216.35,
+          "x": 38.13,
+          "y": 147.19,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"d05bd562c65847039a86\",\"layouts\":[{\"id\":0,\"position\":{\"x\":38.12807881773399,\"y\":301.4778325123153,\"z\":2000,\"width\":184.43349753694582,\"height\":99.3103448275862,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"d_beneficiarios.TIPO_BENEFICIARIO\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_beneficiarios\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"TIPO_BENEFICIARIO\"},\"Name\":\"d_beneficiarios.TIPO_BENEFICIARIO\",\"NativeReferenceName\":\"TIPO_BENEFICIARIO\"}]},\"syncGroup\":{\"groupName\":\"TIPO_BENEFICIARIO\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 99.31,
+          "width": 184.43,
+          "x": 38.13,
+          "y": 301.48,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

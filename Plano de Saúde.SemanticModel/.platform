@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Plano de Saúde"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "41fd447b-c081-4f7d-ba00-ddecb44b7f70"
+  }
+}

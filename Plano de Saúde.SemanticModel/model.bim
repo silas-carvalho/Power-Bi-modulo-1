@@ -1,0 +1,3686 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"d_beneficiarios\",\"f_receitas\",\"f_custos\",\"d_calendario\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.138.1452.0 (24.11)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "pt-BR",
+    "cultures": [
+      {
+        "name": "pt-BR",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "d_beneficiario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "d beneficiario": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "d_beneficiarios": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.chave": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "ConceptualProperty": "CHAVE"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "chave": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.cidade_residencial": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "ConceptualProperty": "CIDADE_RESIDENCIAL"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "cidade residencial": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "CIDADE_RESIDENCIAL": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.data_inicio_vigencia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "ConceptualProperty": "DATA_INICIO_VIGENCIA"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "data inicio vigencia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "DATA_INICIO_VIGENCIA": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "information inicio vigencia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "fact inicio vigencia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "info inicio vigencia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "statistic inicio vigencia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "document inicio vigencia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "figure inicio vigencia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "record inicio vigencia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "Hierarchy": "Hierarquia de datas",
+                    "VariationSet": "Variation",
+                    "VariationSource": "DATA_INICIO_VIGENCIA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "hierarquia de data": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "hierarquia de information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de fact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de info": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de document": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "hierarquia de figure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "hierarquia de record": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.ano": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Ano",
+                    "VariationSet": "Variation",
+                    "VariationSource": "DATA_INICIO_VIGENCIA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ano": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data inicio vigencia ano": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information inicio vigencia ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fact inicio vigencia ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "info inicio vigencia ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "statistic inicio vigencia ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "document inicio vigencia ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "figure inicio vigencia ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "record inicio vigencia ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.dia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Dia",
+                    "VariationSet": "Variation",
+                    "VariationSource": "DATA_INICIO_VIGENCIA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data inicio vigencia dia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information inicio vigencia dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fact inicio vigencia dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "info inicio vigencia dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "statistic inicio vigencia dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "document inicio vigencia dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "figure inicio vigencia dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "record inicio vigencia dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.mê": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Mês",
+                    "VariationSet": "Variation",
+                    "VariationSource": "DATA_INICIO_VIGENCIA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mê": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data inicio vigencia mê": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information inicio vigencia mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fact inicio vigencia mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "info inicio vigencia mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "statistic inicio vigencia mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "document inicio vigencia mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "figure inicio vigencia mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "record inicio vigencia mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.trimestre": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Trimestre",
+                    "VariationSet": "Variation",
+                    "VariationSource": "DATA_INICIO_VIGENCIA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data inicio vigencia trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information inicio vigencia trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fact inicio vigencia trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "info inicio vigencia trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "statistic inicio vigencia trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "document inicio vigencia trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "figure inicio vigencia trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "record inicio vigencia trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.data_nascimento": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "ConceptualProperty": "DATA_NASCIMENTO"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "data nascimento": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "DATA_NASCIMENTO": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "information nascimento": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "fact nascimento": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "info nascimento": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "statistic nascimento": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "document nascimento": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "figure nascimento": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "record nascimento": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.data_nascimento.variation.hierarquia_de_data": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "Hierarchy": "Hierarquia de datas",
+                    "VariationSet": "Variation",
+                    "VariationSource": "DATA_NASCIMENTO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "hierarquia de data": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "hierarquia de information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de fact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de info": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de document": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "hierarquia de figure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "hierarquia de record": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.data_nascimento.variation.hierarquia_de_data.ano": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Ano",
+                    "VariationSet": "Variation",
+                    "VariationSource": "DATA_NASCIMENTO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ano": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data nascimento ano": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information nascimento ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "fact nascimento ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "info nascimento ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "statistic nascimento ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "document nascimento ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "figure nascimento ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "record nascimento ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.data_nascimento.variation.hierarquia_de_data.dia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Dia",
+                    "VariationSet": "Variation",
+                    "VariationSource": "DATA_NASCIMENTO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data nascimento dia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information nascimento dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "fact nascimento dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "info nascimento dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "statistic nascimento dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "document nascimento dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "figure nascimento dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "record nascimento dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.data_nascimento.variation.hierarquia_de_data.mê": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Mês",
+                    "VariationSet": "Variation",
+                    "VariationSource": "DATA_NASCIMENTO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mê": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data nascimento mê": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information nascimento mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "fact nascimento mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "info nascimento mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "statistic nascimento mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "document nascimento mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "figure nascimento mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "record nascimento mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.data_nascimento.variation.hierarquia_de_data.trimestre": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Trimestre",
+                    "VariationSet": "Variation",
+                    "VariationSource": "DATA_NASCIMENTO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data nascimento trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information nascimento trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "fact nascimento trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "info nascimento trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "statistic nascimento trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "document nascimento trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "figure nascimento trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "record nascimento trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.grau_dependencia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "ConceptualProperty": "GRAU_DEPENDENCIA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "grau dependencia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "GRAU_DEPENDENCIA": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.idade": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "ConceptualProperty": "Idade"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "idade": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.periodo_do_plano": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "ConceptualProperty": "Periodo_do_plano"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "periodo do plano": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Periodo_do_plano": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.sexo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "ConceptualProperty": "SEXO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sexo": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.status_beneficiario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "ConceptualProperty": "STATUS_BENEFICIARIO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "status beneficiario": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "STATUS_BENEFICIARIO": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "category beneficiario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "importance beneficiario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "prestige beneficiario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "prominence beneficiario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "condition beneficiario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "class beneficiario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "grade beneficiario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "level beneficiario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "position beneficiario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "rank beneficiario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.tipo_beneficiario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "ConceptualProperty": "TIPO_BENEFICIARIO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tipo beneficiario": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "TIPO_BENEFICIARIO": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Tipo": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "d_beneficiario.uf_residencial": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_beneficiarios",
+                    "ConceptualProperty": "UF_RESIDENCIAL"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "uf residencial": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "UF_RESIDENCIAL": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "d_beneficiario_data_inicio_vigencia_has_variation_hierarquia_de_data": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_inicio_vigencia"
+                      }
+                    },
+                    "ID": "data_inicio_vigencias_have_hierarquia_de_data",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario.data_inicio_vigencia": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_inicio_vigencia"
+                    }
+                  },
+                  "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_data_inicio_vigencia_variation_hierarquia_de_data_ano_has_d_beneficiario_data_inicio_vigencia_variation_hierarquia_de_data_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.ano"
+                      }
+                    },
+                    "ID": "anos_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.ano"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_anos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "trimestres_are_in_anos1",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.ano"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.ano": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.ano"
+                    }
+                  },
+                  "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_data_inicio_vigencia_variation_hierarquia_de_data_has_ano": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.ano"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_anos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data"
+                    }
+                  },
+                  "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.ano": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.ano"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_data_inicio_vigencia_variation_hierarquia_de_data_has_dia": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.dia"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_dias",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data"
+                    }
+                  },
+                  "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.dia": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.dia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_data_inicio_vigencia_variation_hierarquia_de_data_has_mê": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_mê",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data"
+                    }
+                  },
+                  "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.mê"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_data_inicio_vigencia_variation_hierarquia_de_data_has_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data"
+                    }
+                  },
+                  "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_data_inicio_vigencia_variation_hierarquia_de_data_mê_has_d_beneficiario_data_inicio_vigencia_variation_hierarquia_de_data_dia": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.dia"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "ID": "mê_have_dias",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.dia"
+                      }
+                    },
+                    "ID": "dias_have_mê",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "dias_are_in_mê1",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.mê"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.dia"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.dia": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.dia"
+                    }
+                  },
+                  "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.mê"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_data_inicio_vigencia_variation_hierarquia_de_data_trimestre_has_d_beneficiario_data_inicio_vigencia_variation_hierarquia_de_data_mê": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_mê",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "ID": "mê_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "mê_are_in_trimestres1",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.mê"
+                    }
+                  },
+                  "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_inicio_vigencia.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_data_nascimento_has_variation_hierarquia_de_data": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_nascimento"
+                      }
+                    },
+                    "ID": "data_nascimentos_have_hierarquia_de_data",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario.data_nascimento": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_nascimento"
+                    }
+                  },
+                  "d_beneficiario.data_nascimento.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_nascimento.variation.hierarquia_de_data"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_data_nascimento_variation_hierarquia_de_data_ano_has_d_beneficiario_data_nascimento_variation_hierarquia_de_data_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.ano"
+                      }
+                    },
+                    "ID": "anos_have_trimestres1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.ano"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_anos1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "trimestres_are_in_anos",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.ano"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario.data_nascimento.variation.hierarquia_de_data.ano": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.ano"
+                    }
+                  },
+                  "d_beneficiario.data_nascimento.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_data_nascimento_variation_hierarquia_de_data_has_ano": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.ano"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_anos1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario.data_nascimento.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_nascimento.variation.hierarquia_de_data"
+                    }
+                  },
+                  "d_beneficiario.data_nascimento.variation.hierarquia_de_data.ano": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.ano"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_data_nascimento_variation_hierarquia_de_data_has_dia": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.dia"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_dias1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario.data_nascimento.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_nascimento.variation.hierarquia_de_data"
+                    }
+                  },
+                  "d_beneficiario.data_nascimento.variation.hierarquia_de_data.dia": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.dia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_data_nascimento_variation_hierarquia_de_data_has_mê": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_mê1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario.data_nascimento.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_nascimento.variation.hierarquia_de_data"
+                    }
+                  },
+                  "d_beneficiario.data_nascimento.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.mê"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_data_nascimento_variation_hierarquia_de_data_has_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_trimestres1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario.data_nascimento.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_nascimento.variation.hierarquia_de_data"
+                    }
+                  },
+                  "d_beneficiario.data_nascimento.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_data_nascimento_variation_hierarquia_de_data_mê_has_d_beneficiario_data_nascimento_variation_hierarquia_de_data_dia": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.dia"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "ID": "mê_have_dias1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.dia"
+                      }
+                    },
+                    "ID": "dias_have_mê1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "dias_are_in_mê",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.mê"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.dia"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario.data_nascimento.variation.hierarquia_de_data.dia": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.dia"
+                    }
+                  },
+                  "d_beneficiario.data_nascimento.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.mê"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_data_nascimento_variation_hierarquia_de_data_trimestre_has_d_beneficiario_data_nascimento_variation_hierarquia_de_data_mê": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_mê1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "ID": "mê_have_trimestres1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "mê_are_in_trimestres",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario.data_nascimento.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.mê"
+                    }
+                  },
+                  "d_beneficiario.data_nascimento.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_nascimento.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_has_chave": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.chave"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario"
+                      }
+                    },
+                    "ID": "d_beneficiarios_have_chaves",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario": {
+                    "Target": {
+                      "Entity": "d_beneficiario"
+                    }
+                  },
+                  "d_beneficiario.chave": {
+                    "Target": {
+                      "Entity": "d_beneficiario.chave"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_has_cidade_residencial": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.cidade_residencial"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario"
+                      }
+                    },
+                    "ID": "d_beneficiarios_have_cidade_residencials",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario": {
+                    "Target": {
+                      "Entity": "d_beneficiario"
+                    }
+                  },
+                  "d_beneficiario.cidade_residencial": {
+                    "Target": {
+                      "Entity": "d_beneficiario.cidade_residencial"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_has_data_inicio_vigencia": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_inicio_vigencia"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario"
+                      }
+                    },
+                    "ID": "d_beneficiarios_have_data_inicio_vigencias",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario": {
+                    "Target": {
+                      "Entity": "d_beneficiario"
+                    }
+                  },
+                  "d_beneficiario.data_inicio_vigencia": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_inicio_vigencia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_has_data_nascimento": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.data_nascimento"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario"
+                      }
+                    },
+                    "ID": "d_beneficiarios_have_data_nascimentos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario": {
+                    "Target": {
+                      "Entity": "d_beneficiario"
+                    }
+                  },
+                  "d_beneficiario.data_nascimento": {
+                    "Target": {
+                      "Entity": "d_beneficiario.data_nascimento"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_has_grau_dependencia": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.grau_dependencia"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario"
+                      }
+                    },
+                    "ID": "d_beneficiarios_have_grau_dependencias",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario": {
+                    "Target": {
+                      "Entity": "d_beneficiario"
+                    }
+                  },
+                  "d_beneficiario.grau_dependencia": {
+                    "Target": {
+                      "Entity": "d_beneficiario.grau_dependencia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_has_idade": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.idade"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario"
+                      }
+                    },
+                    "ID": "d_beneficiarios_have_idades",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario": {
+                    "Target": {
+                      "Entity": "d_beneficiario"
+                    }
+                  },
+                  "d_beneficiario.idade": {
+                    "Target": {
+                      "Entity": "d_beneficiario.idade"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_has_periodo_do_plano": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.periodo_do_plano"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario"
+                      }
+                    },
+                    "ID": "d_beneficiarios_have_periodo_do_plano",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario": {
+                    "Target": {
+                      "Entity": "d_beneficiario"
+                    }
+                  },
+                  "d_beneficiario.periodo_do_plano": {
+                    "Target": {
+                      "Entity": "d_beneficiario.periodo_do_plano"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_has_sexo": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.sexo"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario"
+                      }
+                    },
+                    "ID": "d_beneficiarios_have_sexos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario": {
+                    "Target": {
+                      "Entity": "d_beneficiario"
+                    }
+                  },
+                  "d_beneficiario.sexo": {
+                    "Target": {
+                      "Entity": "d_beneficiario.sexo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_has_status_beneficiario": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.status_beneficiario"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario"
+                      }
+                    },
+                    "ID": "d_beneficiarios_have_status_beneficiarios",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario": {
+                    "Target": {
+                      "Entity": "d_beneficiario"
+                    }
+                  },
+                  "d_beneficiario.status_beneficiario": {
+                    "Target": {
+                      "Entity": "d_beneficiario.status_beneficiario"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_has_tipo_beneficiario": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.tipo_beneficiario"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario"
+                      }
+                    },
+                    "ID": "d_beneficiarios_have_tipo_beneficiarios",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario": {
+                    "Target": {
+                      "Entity": "d_beneficiario"
+                    }
+                  },
+                  "d_beneficiario.tipo_beneficiario": {
+                    "Target": {
+                      "Entity": "d_beneficiario.tipo_beneficiario"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_beneficiario_has_uf_residencial": {
+                "Binding": {
+                  "ConceptualEntity": "d_beneficiarios"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_beneficiario.uf_residencial"
+                      },
+                      "Subject": {
+                        "Role": "d_beneficiario"
+                      }
+                    },
+                    "ID": "d_beneficiarios_have_uf_residencials",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_beneficiario": {
+                    "Target": {
+                      "Entity": "d_beneficiario"
+                    }
+                  },
+                  "d_beneficiario.uf_residencial": {
+                    "Target": {
+                      "Entity": "d_beneficiario.uf_residencial"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "2bdf6b30-c1bd-4f3d-8fba-64fc53af7455",
+        "fromColumn": "DATA_NASCIMENTO",
+        "fromTable": "d_beneficiarios",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_e79e5047-39f7-45f2-8409-5df5e6ae0461"
+      },
+      {
+        "name": "a4651241-72dd-45d4-b191-6820eb5a40bd",
+        "fromColumn": "DATA_INICIO_VIGENCIA",
+        "fromTable": "d_beneficiarios",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_ef4c9e8f-fbc5-46e5-9601-41e571638a3a"
+      },
+      {
+        "name": "AutoDetected_74fcebc1-2272-474d-93ca-c09dcef15987",
+        "fromColumn": "CHAVE",
+        "fromTable": "f_receitas",
+        "toColumn": "CHAVE",
+        "toTable": "d_beneficiarios"
+      },
+      {
+        "name": "AutoDetected_dd97cbd2-9d30-40ce-ab26-dbc6887c2c1e",
+        "fromColumn": "CHAVE",
+        "fromTable": "f_custos",
+        "toColumn": "CHAVE",
+        "toTable": "d_beneficiarios"
+      },
+      {
+        "name": "AutoDetected_f621d522-9423-48dc-b314-79f33cb081c7",
+        "fromColumn": "COMPETENCIA",
+        "fromTable": "f_receitas",
+        "toColumn": "COMPETENCIA",
+        "toTable": "d_calendario"
+      },
+      {
+        "name": "AutoDetected_ac1bd743-0938-48c4-a9aa-28de73ab295d",
+        "fromColumn": "COMPETENCIA",
+        "fromTable": "f_custos",
+        "toColumn": "COMPETENCIA",
+        "toTable": "d_calendario"
+      }
+    ],
+    "sourceQueryCulture": "pt-BR",
+    "tables": [
+      {
+        "name": "d_beneficiarios",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "CHAVE",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "994d3264-c16d-4733-aa72-4e98183d6ab7",
+            "sourceColumn": "CHAVE",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "TIPO_BENEFICIARIO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c31a4277-4a47-4fdb-bda2-696277323ef2",
+            "sourceColumn": "TIPO_BENEFICIARIO",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SEXO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ab05cf21-124f-4006-a216-fa4e15aee091",
+            "sourceColumn": "SEXO",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DATA_NASCIMENTO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "lineageTag": "778987bf-63bf-475f-b67b-08dd26889f30",
+            "sourceColumn": "DATA_NASCIMENTO",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Hierarquia de datas",
+                  "table": "LocalDateTable_e79e5047-39f7-45f2-8409-5df5e6ae0461"
+                },
+                "isDefault": true,
+                "relationship": "2bdf6b30-c1bd-4f3d-8fba-64fc53af7455"
+              }
+            ]
+          },
+          {
+            "name": "GRAU_DEPENDENCIA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ead520c2-62af-43e3-ab80-e342d354db19",
+            "sourceColumn": "GRAU_DEPENDENCIA",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "STATUS_BENEFICIARIO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ff19de50-a5a5-4e48-8723-0218c6f7c071",
+            "sourceColumn": "STATUS_BENEFICIARIO",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DATA_INICIO_VIGENCIA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "lineageTag": "064d6f31-b8a6-4f2f-a079-a7ca09831b40",
+            "sourceColumn": "DATA_INICIO_VIGENCIA",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Hierarquia de datas",
+                  "table": "LocalDateTable_ef4c9e8f-fbc5-46e5-9601-41e571638a3a"
+                },
+                "isDefault": true,
+                "relationship": "a4651241-72dd-45d4-b191-6820eb5a40bd"
+              }
+            ]
+          },
+          {
+            "name": "CIDADE_RESIDENCIAL",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d33a741f-75c0-4e5d-a681-916789acca1e",
+            "sourceColumn": "CIDADE_RESIDENCIAL",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "UF_RESIDENCIAL",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b6c1b3f8-5ee9-46a6-ac4c-1ae9690cad4b",
+            "sourceColumn": "UF_RESIDENCIAL",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Idade",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f9fd3cc1-990b-46bb-b419-643660f14e38",
+            "sourceColumn": "Idade",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Periodo_do_plano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5fe7ae32-e560-40df-93e0-6c03f9600f07",
+            "sourceColumn": "Periodo_do_plano",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Localização",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataCategory": "Place",
+            "dataType": "string",
+            "lineageTag": "e7aed814-fecd-4dee-a574-224332d460e5",
+            "sourceColumn": "Localização",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "e5113319-52c2-4c7c-95f2-a3f73d6eb1cb",
+        "partitions": [
+          {
+            "name": "d_beneficiarios",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Csv.Document(File.Contents(\"D:\\Github projetos\\Power Bi\\Dados\\d_beneficiarios.csv\"),[Delimiter=\";\", Columns=9, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"CHAVE\", type text}, {\"TIPO_BENEFICIARIO\", type text}, {\"SEXO\", type text}, {\"DATA_NASCIMENTO\", type date}, {\"GRAU_DEPENDENCIA\", type text}, {\"STATUS_BENEFICIARIO\", type text}, {\"DATA_INICIO_VIGENCIA\", type date}, {\"CIDADE_RESIDENCIAL\", type text}, {\"UF_RESIDENCIAL\", type text}}),",
+                "    #\"Idade Inserida\" = Table.AddColumn(#\"Tipo Alterado\", \"Idade\", each Date.From(DateTime.LocalNow()) - [DATA_NASCIMENTO], type duration),",
+                "    #\"Total de Anos Calculado\" = Table.TransformColumns(#\"Idade Inserida\",{{\"Idade\", each Duration.TotalDays(_) / 365, type number}}),",
+                "    #\"Tipo Alterado1\" = Table.TransformColumnTypes(#\"Total de Anos Calculado\",{{\"Idade\", Int64.Type}}),",
+                "    #\"Idade Inserida1\" = Table.AddColumn(#\"Tipo Alterado1\", \"Idade.1\", each Date.From(DateTime.LocalNow()) - [DATA_INICIO_VIGENCIA], type duration),",
+                "    #\"Total de Anos Calculado1\" = Table.TransformColumns(#\"Idade Inserida1\",{{\"Idade.1\", each Duration.TotalDays(_) / 365, type number}}),",
+                "    #\"Tipo Alterado2\" = Table.TransformColumnTypes(#\"Total de Anos Calculado1\",{{\"Idade.1\", Int64.Type}}),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Tipo Alterado2\",{{\"Idade.1\", \"Periodo_do_plano\"}}),",
+                "    #\"Coluna Mesclada Inserida\" = Table.AddColumn(#\"Colunas Renomeadas\", \"Localização\", each Text.Combine({[CIDADE_RESIDENCIAL], \"-\", [UF_RESIDENCIAL],\"-BRASIL\"}), type text)",
+                "in",
+                "    #\"Coluna Mesclada Inserida\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_9a7df508-029e-4249-8248-e68037a06d75",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "5b71b715-1c49-4830-b1ff-c6d140844ea9",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "3d3a719e-d94d-4883-b293-6bc0398f11e1",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "9a390e2f-4e3b-45ce-b240-28775096b8a3",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "7fb97ef3-d767-4b49-85fd-0d7bcd13d110",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "1baff90f-245e-487b-aae0-3c5b3f3e5ba9",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "f6ba2147-deb8-4455-a6b5-1e0de5ae06b1",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "91eb04dd-bfdb-41aa-9fb1-2514beb499af",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "acb21d76-3bcd-4386-a782-b13220771e99",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "c0c7bd0b-67e1-426f-9558-872bf3bdbc87",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "b512cdca-64c1-4e9c-82ad-0bee650a58fe",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "8cdbf993-13c8-44a4-a32c-62b15ae46825",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "75ae29a8-b64b-42c9-8961-6ac6d4a6b1e4"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "77ed86e0-dca8-478a-bde4-976a47404055",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_9a7df508-029e-4249-8248-e68037a06d75",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_e79e5047-39f7-45f2-8409-5df5e6ae0461",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "f25e75b5-f0f8-40f9-80d2-27fde51e699a",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "5e86d09a-5d9f-4d11-8724-1e4cf69eb9c5",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "e16a31a8-5464-4eb5-84e8-36a7c14dc60e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "8a54512e-3103-409c-947d-1fe2b616e478",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "a0b45de8-7f01-461f-bdd9-1047bf4a1ff8",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "12364f98-3b90-46f0-adf0-d9ca0972c198",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "7ccf1cdd-1822-419b-9b3e-b93d9ad53a9c",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "f5ba9fb0-45c5-4fa8-904a-224e8b1c5f75",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "afe677ad-1372-4110-b4b1-989074314889",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "0b7be1f9-0418-471a-b050-acf762630528",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "62300916-d43f-446b-ae20-0e30fcfacb6e",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "edae2953-b524-4443-bf85-8a29f3fbed0f"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "40ab9fee-ce2e-4fed-a0e8-9c06aae4e2e9",
+        "partitions": [
+          {
+            "name": "LocalDateTable_e79e5047-39f7-45f2-8409-5df5e6ae0461",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('d_beneficiarios'[DATA_NASCIMENTO])), 1, 1), Date(Year(MAX('d_beneficiarios'[DATA_NASCIMENTO])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "LocalDateTable_ef4c9e8f-fbc5-46e5-9601-41e571638a3a",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "5e15cebc-f340-4d87-ae70-926d4dce1bb8",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "50307107-0c4d-4111-a16b-2d18c85d439b",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "a3524fbf-5b80-4101-9ca9-2f0d8fe37f40",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "61b46c8e-cb06-4713-9c4d-45f817dd0e8a",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "8440e6e4-1b09-43d4-9140-1f891dea68b4",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "63f6cee0-c4c2-4f53-9ff2-4f5798152c78",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "de5bd229-91fb-4a42-a420-0057728bc6af",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "033e4432-fd54-477b-8ff8-7b5490a4cbfe",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "a670a93b-ff33-4170-b9a8-b91ed91eaa44",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "b5e3a929-db79-4095-b9e6-e3745daa85c9",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "a5ce1a22-5380-4799-94c9-9d3b89a44519",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "b7ee1390-cf35-400e-9310-ab84a4106dec"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "f244d588-42a2-4eb0-b93d-ff8324ea623d",
+        "partitions": [
+          {
+            "name": "LocalDateTable_ef4c9e8f-fbc5-46e5-9601-41e571638a3a",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('d_beneficiarios'[DATA_INICIO_VIGENCIA])), 1, 1), Date(Year(MAX('d_beneficiarios'[DATA_INICIO_VIGENCIA])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "f_receitas",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "CHAVE",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f6eb2637-c06d-4d87-90c4-157cd78bc6a8",
+            "sourceColumn": "CHAVE",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "COMPETENCIA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "21a73f26-35e5-4759-9e7a-bd4a48922352",
+            "sourceColumn": "COMPETENCIA",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "RECEITA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "e905c696-e917-4720-b9db-cad2a178e8b0",
+            "sourceColumn": "RECEITA",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "7189bd98-d35e-4b91-94cd-7d673737dcda",
+        "partitions": [
+          {
+            "name": "f_receitas",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Csv.Document(File.Contents(\"D:\\Github projetos\\Power Bi\\Dados\\f_receitas.csv\"),[Delimiter=\";\", Columns=3, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"CHAVE\", type text}, {\"COMPETENCIA\", Int64.Type}, {\"RECEITA\", type number}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "f_custos",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "CHAVE",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a2a8228d-d04d-4ec8-ad33-ff84d232e2de",
+            "sourceColumn": "CHAVE",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "COMPETENCIA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "98a4495c-d438-4e87-80dc-8b2569cbd9c7",
+            "sourceColumn": "COMPETENCIA",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CUSTO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "caed891f-4b2d-4f99-942a-bfe7487ff69f",
+            "sourceColumn": "CUSTO",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "228daf85-966d-4659-99aa-99b8a290bdc4",
+        "partitions": [
+          {
+            "name": "f_custos",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Csv.Document(File.Contents(\"D:\\Github projetos\\Power Bi\\Dados\\f_custos.csv\"),[Delimiter=\";\", Columns=3, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"CHAVE\", type text}, {\"COMPETENCIA\", Int64.Type}, {\"CUSTO\", type number}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "d_calendario",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "COMPETENCIA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "50748e4e-1e8b-4dc4-97cc-a5350cc65bb0",
+            "sourceColumn": "COMPETENCIA",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "709dcffc-f5c3-4b0f-a427-e03dcf3bdd50",
+        "partitions": [
+          {
+            "name": "d_calendario",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Csv.Document(File.Contents(\"D:\\Github projetos\\Power Bi\\Dados\\f_receitas.csv\"),[Delimiter=\";\", Columns=3, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"CHAVE\", type text}, {\"COMPETENCIA\", Int64.Type}, {\"RECEITA\", type number}}),",
+                "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Tipo Alterado\",{\"CHAVE\", \"RECEITA\"}),",
+                "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Colunas Removidas\")",
+                "in",
+                "    #\"Duplicatas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

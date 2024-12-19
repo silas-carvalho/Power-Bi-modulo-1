@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Plano de Saúde"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "5b9a958c-e4e4-4a4e-a988-735f719a8d66"
+  }
+}
